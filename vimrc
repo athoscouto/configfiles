@@ -241,3 +241,9 @@ inoremap <leader>todo  # TODO Athos Couto - <Esc>"=strftime("[%d-%m-%Y]: ")<CR>p
 "
 " Set syntax highlighting on *.md files to markdown
 autocmd BufRead,BufNew *.md set filetype=markdown
+
+
+"------------------------------------------------------------
+"
+" Set syntastic c++11
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
